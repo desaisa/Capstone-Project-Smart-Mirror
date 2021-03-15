@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+
+        android:title="Home" />
+    <item
+        android:id="@+id/weatherFragment"
+        android:icon="@drawable/ic_cloud"
+        android:onClick="openMenuItem"
+        android:title="Weather" />
+    <item
+        android:id="@+id/mediaFragment"
+        android:icon="@drawable/ic_music"
+        android:onClick="openMenuItem"
+        android:title="Media" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_settings"
+        android:onClick="openMenuItem"
+        android:title="Settings" />
+
+</menu>

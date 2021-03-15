@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".weatherFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Location"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="90px" />
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginLeft="100dp"
+        android:hint="City, town, province" />
+
+    <TextView
+        android:id="@+id/location_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Weather"
+        android:textColor="#33B2FF"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="90px" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="300dp"
+        android:onClick="setLocation"
+        android:background="@drawable/button_background"
+        android:textColor="@color/appWhite"
+        android:text="Set" />
+</FrameLayout>
